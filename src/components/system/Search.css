@@ -1,0 +1,30 @@
+.selec2 {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+}
+.selec2:placeholder-shown {
+  font-size: x-small;
+  font-style: italic;
+}
+.search {
+  border: 2px solid gainsboro;
+  border-radius: 10px;
+  padding: 40px 0 40px 0;
+  background-color: #f1f3ff;
+}
+label {
+  width: 150px;
+}
+.detail {
+  position: relative;
+  bottom: 150px;
+  background-color: #f1f3ff;
+  border-radius: 10px;
+}
+.display {
+  display: none;
+}
+figcaption {
+  font-size: smaller;
+}
