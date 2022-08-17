@@ -17,14 +17,11 @@ label {
   width: 150px;
 }
 .detail {
-  position: relative;
-  bottom: 150px;
   background-color: #f1f3ff;
   border-radius: 10px;
+  margin-top: 50px;
 }
-.display {
-  display: none;
-}
+
 figcaption {
   font-size: smaller;
 }

@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom";
 const Main = () => {
   const navigate = useNavigate();
   function go() {
-    navigate("search");
+    navigate("/search");
   }
 
   return (
