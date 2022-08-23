@@ -7,6 +7,7 @@ import test2 from "./img/testi2.svg";
 import test3 from "./img/testi3.png";
 import "./Main.css";
 import { useNavigate } from "react-router-dom";
+import Banner from "./Banner";
 
 const Main = () => {
   const navigate = useNavigate();
@@ -16,6 +17,7 @@ const Main = () => {
 
   return (
     <div>
+      <Banner />
       <div class="container" id="ourservice">
         <div class="row">
           <div class="col-md mt-3">

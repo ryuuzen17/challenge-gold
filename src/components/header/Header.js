@@ -1,13 +1,8 @@
 import kotak from "./img/kotak1.svg";
-import mobil from "./img/mobil.png";
 import { useNavigate } from "react-router-dom";
 import "./Header.css";
 const Header = () => {
-  const navigate = useNavigate();
   const bfore = useNavigate();
-  function next() {
-    navigate("search");
-  }
   function prev() {
     bfore("/");
   }
@@ -53,20 +48,6 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-md-6 mt-5">
-            <h2>Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h2>
-            <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
-            <button type="button" class="btn btn-success" onClick={next}>
-              Mulai Sewa Mobil
-            </button>
-          </div>
-          <div class="col-md-6 mt-5">
-            <img class="img-fluid" src={mobil} width="600px" height="400px" alt="mobil" />
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
