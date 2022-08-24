@@ -14,7 +14,7 @@ const Detail = () => {
     fetch(`https://bootcamp-rent-car.herokuapp.com/admin/car/${id}`)
       .then((response) => response.json())
       .then((resjson) => setdata2(resjson));
-  });
+  }, []);
 
   return (
     <div class="detail1">

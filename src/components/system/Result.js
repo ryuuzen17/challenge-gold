@@ -11,7 +11,7 @@ const Result = () => {
     fetch("https://bootcamp-rent-car.herokuapp.com/admin/car")
       .then((response) => response.json())
       .then((resjson) => setdata(resjson));
-  });
+  }, []);
   function input(e) {
     setinput(e);
   }
